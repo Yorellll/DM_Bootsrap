@@ -24,12 +24,12 @@ a {
 }
 
 .menuBg{
-    background-image:url(/img/bkg_menu_demarches.jpg);
+    background-image:url("img/bkg_menu_demarches.jpg");
     background-size: contain;
 }
 
 .bgHeader{
-    background-image: url(/img/bg-contenu2.png);
+    background-image: url("img/bg-contenu2.png");
     background-size: contain;
 }
 
