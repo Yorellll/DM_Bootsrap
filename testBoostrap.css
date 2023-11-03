@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.row{
+    margin-right: 0;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.ul, li{
+    list-style-type: none;
+    }
+
+a {
+    text-decoration: none;
+}
+
+.menuBg{
+    background-image:url(/img/bkg_menu_demarches.jpg);
+    background-size: contain;
+}
+
+.bgHeader{
+    background-image: url(/img/bg-contenu2.png);
+    background-size: contain;
+}
+
+
+
+.bgTbBord{
+    background-color: #F1F6F8;
+}
+
+.astuceColor{
+    color: #0E5F96;
+}
+
+.date{
+    color: #9C2F03;
+}
+
+.footBg{
+    background-color: #008BD3;
+}
+
+.droitRsvBg{
+    background-color: #00327B;
+    color: white;
+}
+
+ul > li > a > span {
+    color: white;
+}
+
+.footFooter{
+    background-color: #00327B;
+}
+
+
+
+
+@media (min-width: 320px){
+
+    .formStyle{
+        text-align: center;
+    }
+
+    .menu {
+        text-align: center;
+    }
+
+    nav > ul > li{
+        border-bottom: 3px solid #0E5F96 ;
+        background-color: #E2EBF2;
+    }
+
+    .surHide{
+        display: none;
+    }
+
+    .tabBord{
+        background-color: #0E5F96;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .astuce{
+        background-color: #0E5F96;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .actualiteColor{
+        background-color: #9C2F03;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+@media (min-width: 768px){
+    .menu {
+        text-align: center;
+    }
+
+    nav > ul > li {
+        background-color: #E2EBF2;
+        border-bottom: 1px solid #0E5F96;
+    }
+
+    .surHide{
+        display: none;
+    }
+
+    .tabBord{
+        background-color: #0E5F96;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    
+}
+
+@media (min-width: 998px){
+    nav > ul > li {
+        background-color: #E2EBF2;
+        border-bottom: 1px solid #0E5F96;
+    }
+
+    .divImage{
+        margin-bottom: 1rem;
+    }
+}
+
